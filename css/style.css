@@ -120,6 +120,16 @@ a {
     border-bottom-right-radius: 0.8rem;
 }
 
+input::placeholder{
+    color: black;
+    font-size: 1rem;
+}
+
+input:focus{
+    opacity: 0.4;
+    outline: none;
+}
+
 /******* Filter ********/
 
 .filter__container{
@@ -136,17 +146,15 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
     padding: 0.8rem 1.2rem 0.8rem 1.2rem;
     border: 3px solid var(--grey-color);
-    border-radius: 2rem;
+    border-radius: 1.8rem;
 }
 
 .filter__box:hover{
     background-color: rgba(0, 101, 252, 0.2);
 }
-
-
 
 /******* Info *********/
 
@@ -157,6 +165,7 @@ a {
     align-items: center;
     gap: 1rem;
     padding: 0rem 0 2rem 0;
+    cursor: default;
 }
 
 
@@ -180,19 +189,24 @@ a {
 
 .hebergements-title{
     margin-bottom: 2rem;
+    cursor: default;
+}
+
+.hebergements h3{
+    padding-top: 2rem;
+    cursor: default;
 }
 
 .hebergements-cards{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: space-between;
+    gap: 1.33rem;
 }
 
 .hebergements-cards .card-content {
     width: 100%;
-    padding-left: 15px;
+    padding-left: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -226,6 +240,10 @@ a {
     border-top-left-radius: 1.5rem;
 }
 
+.card:hover{
+    background-color: var(--grey-color);
+    opacity: 1;
+}
 
 /****** Populaires ***********/
 .populaires {
@@ -236,6 +254,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: default;
 }
 
 .populaires-cards .card {
