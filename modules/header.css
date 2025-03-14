@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.appBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+}
+
+.appBar__nav-item{
+    margin-left: 4rem;
+    padding-top: 1.4rem;
+    cursor:default;
+}
+
+
+.appBar__nav-item:hover{
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+}
+
+.appBar__icon{
+    width: 3.5rem;
+    height: 1.2rem;
+}

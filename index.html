@@ -16,56 +16,64 @@
 
 <body>
     <div class="main-container">
-        <header>
-            <img src="images/logo/Booki.png" alt="Logo Booki">
-            <nav>
-                <a href="#hebergements">Hébergements</a>
-                <a href="#activites">Activités</a>
+        <header class="appBar">
+            <img class="appBar__icon" src="images/logo/Booki.png" alt="Logo Booki">
+            <nav class="appBar__nav">
+                <a class="appBar__nav-item" href="#hebergements">Hébergements</a>
+                <a class="appBar__nav-item" href="#activites">Activités</a>
             </nav>
         </header>
         <main>
 
             <section>
-                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-                <p>En plein centre-ville ou en pleine nature</p>
-
-                <div>
-                    <div>
+                <div class="search__container">
+                <h2 class="search__title">Trouvez votre hébergement pour des vacances de rêve</h2>
+                <p class="search__subtitle">En plein centre-ville ou en pleine nature</p>
+                </div>
+                <div class="searchBar">
+                    <div class="searchBar__logomaps">
                     <img src="images/icon/maps.svg" alt="icon localisation">
                     </div>
+                    <div class="searchBar__text">
                     <form method="get" action="">
                         <laber for="searsh"></laber>
-                        <input type="text" name="searsh" id="searsh">
+                        <input type="text" name="searsh" id="searsh" value="Marseille, France">
+                    </form>
+                    </div>
+                    <div class="searchBar__search">
+                    <form>
                         <input type="submit" value="Rechercher">
                     </form>
+                    </div>
                 </div>
+            
 
-                <div>
+                <div class="filter__container">
                     <h3>Filtres</h3>
-                    <div>
+                    <div class="filter__box">
                     <img src="images/icon/Property 1=price.png" alt="icone billet">
                         <h3>Économique</h3>
                     </div>
 
-                    <div>
+                    <div class="filter__box">
                         <img src="images/icon/Property 1=family.png" alt="icone Famille"> 
                         <h3>Famillial</h3>
                     </div>
 
-                    <div>
+                    <div class="filter__box">
                         <img src="images/icon/Property 1=romantic.png" alt="icone coeur">
                         <h3>Romantique</h3>
                     </div>
 
-                    <div>
+                    <div class="filter__box">
                         <img src="images/icon/Property 1=fire.png" alt="icone flame">
                         <h3>Nos pépites</h3>
                     </div>
                 </div>
-
+            <div class="info__box">
                 <i class="fa-solid fa-info" aria-hidden="true"></i>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
-
+            </div>
             </section>
             
             <div class="hebergements-and-populaires">
