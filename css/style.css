@@ -297,6 +297,7 @@ input:focus {
 .activites {
   margin: 4rem 0 4rem 0;
   padding: 1.875rem;
+  cursor: default;
 }
 
 .activites__container {
@@ -369,6 +370,7 @@ footer, .apropos__container { /*Pourquoi rien fonctionne sans footer+,+apropos??
 
 .apropos__title{
     padding-bottom: 2rem;
+    cursor: default;
 }
 
 .footer__appBar{
