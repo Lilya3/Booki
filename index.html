@@ -84,8 +84,8 @@
                     
                     <div class="hebergements-cards">
                         <a href="#">
-                            <article class="card">
-                                <img src="images/hebergements/fred-kleber.jpg" alt="Photo chambre d'hôtel du port">
+                            <article class="card card__chambre">
+                                <img class="chambre" src="images/hebergements/fred-kleber.jpg" alt="Photo chambre d'hôtel du port">
                                 <div class="card-content">
                                     <h3 class="card-text">Hôtel du port</h3>
                                     <p class="card-subtitle">Nuit à partir de 52 <span class="euro">€</span></p>
@@ -102,8 +102,8 @@
                         </a>
 
                         <a href="#">
-                            <article class="card">
-                                <img src="images/hebergements/febrian-zakaria.jpg" alt="Photo chambre d'hôtel Chez Amina">
+                            <article class="card card__chambre">
+                                <img class="chambre" src="images/hebergements/febrian-zakaria.jpg" alt="Photo chambre d'hôtel Chez Amina">
                                 <div class="card-content">
                                     <h3 class="card-text">Hôtel Chez Amina</h3>
                                     <p class="card-subtitle">Nuit à partir de 96<span class="euro">€</span></p>
@@ -120,8 +120,8 @@
                         </a>
 
                         <a href="#">
-                            <article class="card">
-                                <img src="images/hebergements/reisetopia.jpg" alt="Photo Chambre d'hôtel Les mouettes">
+                            <article class="card card__chambre">
+                                <img class="chambre" src="images/hebergements/reisetopia.jpg" alt="Photo Chambre d'hôtel Les mouettes">
                                 <div class="card-content">
                                     <h3 class="card-text">Hôtel Les mouettes</h3>
                                     <p class="card-subtitle">Nuit à partir de 76<span class="euro">€</span></p>
@@ -138,8 +138,8 @@
                         </a>
 
                         <a href="#">
-                            <article class="card">
-                                <img src="images/hebergements/annie-spratt.jpg" alt="Photo Chambre d'hôtel de la mer">
+                            <article class="card card__chambre">
+                                <img class="chambre" src="images/hebergements/annie-spratt.jpg" alt="Photo Chambre d'hôtel de la mer">
                                 <div class="card-content">
                                     <h3 class="card-text">Hôtel de la mer</h3>
                                     <p class="card-subtitle">Nuit à partir de 46<span class="euro">€</span></p>
@@ -156,8 +156,8 @@
                         </a>
 
                         <a href="#">
-                            <article class="card">
-                                <img src="images/hebergements/marcus-loke.jpg" alt="Photo Chambre d'Auberge la Canebière">
+                            <article class="card card__chambre">
+                                <img class="chambre" src="images/hebergements/marcus-loke.jpg" alt="Photo Chambre d'Auberge la Canebière">
                                 <div class="card-content">
                                     <h3 class="card-text">Auberge La Canebière</h3>
                                     <p class="card-subtitle">Nuit à partir de 25<span>€</span></p>
@@ -174,8 +174,8 @@
                         </a>
 
                         <a href="#">
-                            <article class="card">
-                                <img src="images/hebergements/nicate-lee.jpg" alt="Photo Chambre d'Auberge Le Panier">
+                            <article class="card card__chambre">
+                                <img class="chambre" src="images/hebergements/nicate-lee.jpg" alt="Photo Chambre d'Auberge Le Panier">
                                 <div class="card-content">
                                     <h3 class="card-text">Auberge Le Panier</h3>
                                     <p class="card-subtitle">Nuit à partir de 23<span class="euro">€</span></p>
@@ -264,20 +264,20 @@
 
             <section class="activites" id="activites">
                 <h2>Activités à Marseille</h2>
-                <div>
+                <div class="activites__container">
                     <a href="#">
-                        <article class="card">
+                        <article class="activites__card">
                             <img src="images/activites/reno-laithienne.jpg" alt="Photographie Vieux-Port">
                             <div class="card-content">
-                                <div class="card-txt">
-                                <h3 class="card-title">Vieux-Port</h3>
+                                <div class="card-text">
+                                    <h3 class="card-title">Vieux-Port</h3>
                                 </div>
                             </div>
                         </article>
                     </a>
 
                     <a href="#">
-                        <article class="card">
+                        <article class="activites__card">
                             <img src="images/activites/paul-hermann.jpg" alt="Photographie Fort de Pomègues">
                             <div class="card-content">
                                 <div class="card-text">
@@ -288,7 +288,7 @@
                     </a>
 
                     <a href="#">
-                        <article class="card">
+                        <article class="activites__card" >
                             <img src="images/activites/kilyan-sockalingum.jpg" alt="Photographie du Parc national des Calanques">
                             <div class="card-content">
                                 <div class="card-text">
@@ -299,7 +299,7 @@
                     </a>
 
                     <a href="#">
-                        <article class="card">
+                        <article class="activites__card">
                             <img src="images/activites/florian-wehde.jpg" alt="Photographie de Notre Dame de la Garde">
                             <div class="card-content">
                                 <div class="card-text">
@@ -311,9 +311,9 @@
                 </div>
             </section>
         </main>
-        <footer>
-            <div>
-                <h3>À propos</h3>
+        <footer class="apropos__container">
+            <div class="apropos__content">
+                <h3 class="apropos__title">À propos</h3>
                 <nav>
                     <a target="_blank" href="">Fonctionnement du site</a>
                     <a target="_blank" href="">Conditions générales</a>
@@ -321,16 +321,16 @@
                 </nav>
             </div>
 
-            <div>
-                <h3>Nos hébergements</h3>
+            <div class="apropos__content">
+                <h3 class="apropos__title">Nos hébergements</h3>
                 <nav>
                     <a target="_blank" href="">Charte qualité</a>
                     <a target="_blank" href="">Proposer votre hôtel</a>
                 </nav>
             </div>
 
-            <div>
-                <h3>Assistance</h3>
+            <div class="apropos__content">
+                <h3 class="apropos__title">Assistance</h3>
                 <nav>
                     <a target="_blank" href="">Centre d'aide</a>
                     <a target="_blank" href="">Nous contacter</a>

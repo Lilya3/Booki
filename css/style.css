@@ -24,9 +24,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
     box-sizing: border-box;
-    padding: 1.5rem 2.5rem 0 2.5rem;
 }
 
 a {
@@ -170,6 +168,7 @@ input:focus{
 
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -178,11 +177,12 @@ input:focus{
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
+    padding: 1.875rem;
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+/********* Hebergements ***********/
+
 .hebergements {
     width: 65%;
 }
@@ -213,6 +213,8 @@ input:focus{
     box-sizing: border-box;
 }
 
+
+
 .hebergements-cards .card-subtitle {
     padding-top: 0.3rem;
     padding-bottom: 0.2rem;
@@ -228,12 +230,14 @@ input:focus{
     padding-top: 0.5rem;
 }
 
-.card{
+.card__chambre{
     border-top-right-radius: 1.8rem;
     border-top-left-radius: 1.8rem;
+    width: 15.625rem;
+    height: 12.938rem;
 }
 
-.card img{
+.card .chambre{
     width: 15.646rem;
     height: 7.75rem;
     border-top-right-radius: 1.5rem;
@@ -246,6 +250,7 @@ input:focus{
 }
 
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
 }
@@ -291,8 +296,75 @@ input:focus{
     margin-bottom: 5px;
 }
 
+/************* Activités à Marseille *************/
+
+.activites{
+    margin: 4rem 0 4rem 0;
+    padding: 1.875rem;
+}
+
+.activites__container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 2rem;
+    margin-top: 2.5rem ;
+}
+
+.activites__card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1.875rem;
+    border-radius: 1.5rem;
+}
+
+.activites__card:hover{
+    background-color: var(--grey-color);
+    opacity: 1;
+}
+
+.activites__card img{
+    width: 19.563rem;
+    height: 24.75rem;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+}
+
+.activites__card,
+img{
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    object-fit: cover;
+}
+.activites .card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-text
+
+.card-title
 
 
+/****************** FOOTER ***********************/
+
+.apropos__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.apropos__content{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey-color);
+    padding: 1rem;
+}
+
+.apropos__title
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
