@@ -395,8 +395,14 @@ footer, .apropos__container { /*Pourquoi rien fonctionne sans footer+,+apropos??
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media (max-width: 1024px) {
+  
+  .renseignements{
+    margin: 3rem;
+  }
+  
   .hebergements-and-populaires {
     flex-direction: column;
+    margin: 3rem;
   }
 
   .hebergements {
@@ -424,6 +430,16 @@ footer, .apropos__container { /*Pourquoi rien fonctionne sans footer+,+apropos??
 
   .populaires-cards .card-subtitle {
     font-size: 16px;
+  }
+
+  .activites{
+    margin: 3rem;
+  }
+
+
+  .activites__card img {
+    width: 11.063rem;
+    height: 11.875rem;
   }
 }
 
