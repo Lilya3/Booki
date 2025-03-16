@@ -110,7 +110,7 @@ a {
   background-color: var(--main-color);
   color: white;
   font-weight: 700;
-  width: 8.25;
+  width: 8.25rem;
   padding: 15px 16px 15px 16px;
   border: 1px solid var(--main-color);
   border-top-right-radius: 0.8rem;
@@ -119,7 +119,11 @@ a {
 
 input::placeholder {
   color: black;
-  font-size: 1rem;
+  font-size: 1.17rem;
+}
+
+.searchBar__search input{
+  font-size: 1.17rem;
 }
 
 input:focus {
@@ -351,31 +355,38 @@ img {
 
 /**********************GROS PROBLEME*************************/
 
+
+
 footer, .apropos__container { /*Pourquoi rien fonctionne sans footer+,+apropos???*/
   display: flex;
   flex-direction: row;
-  background-color: var(--grey-color);
-  justify-content: space-between;
+  background-color: #f2f2f2;
+  justify-content: space-around;
+  height: 10.188rem;
   margin-left: 4rem;
   margin-right: 4rem;
 }
 
 .apropos__content {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: start;
-  padding: 2rem;
-  padding-bottom: 2rem;
+  margin: 1.5rem;
 }
 
 .apropos__title{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     cursor: default;
 }
 
-.footer__appBar{
-    padding-bottom: 1rem;
+.footer__appBar ul{
+  list-style-type: none;
+  padding: 0;
 }
+.footer__appBar li{
+    margin-bottom: 1rem;
+}
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
