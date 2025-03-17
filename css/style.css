@@ -44,10 +44,6 @@ a {
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.card img {
-  object-fit: cover;
-}
-
 .card-title {
   font-size: 1rem;
 }
@@ -202,6 +198,7 @@ input:focus {
 .hebergements-cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   flex-direction: row;
   gap: 1.33rem;
 }
@@ -237,11 +234,12 @@ input:focus {
   height: 12.938rem;
 }
 
-.card .chambre {
-  width: 15.646rem;
+.chambre {
+  width: 100%;
   height: 7.75rem;
   border-top-right-radius: 1.5rem;
   border-top-left-radius: 1.5rem;
+  object-fit: cover;
 }
 
 .card:hover {
@@ -346,10 +344,6 @@ img {
   padding-bottom: 1.5rem;
 }
 
-.card-text
-
-.card-title
-
 
 /****************** FOOTER ***********************/
 
@@ -357,7 +351,7 @@ img {
 
 
 
-footer, .apropos__container { /*Pourquoi rien fonctionne sans footer+,+apropos???*/
+.apropos__container { /*Pourquoi rien fonctionne sans footer+,+apropos???*/
   display: flex;
   flex-direction: row;
   background-color: #f2f2f2;
@@ -437,13 +431,17 @@ footer, .apropos__container { /*Pourquoi rien fonctionne sans footer+,+apropos??
   }
 
   .hebergements {
-    width:100%;
     margin-bottom: 3rem;
+    width: 100%;
   }
 
   .card__chambre{
-    width: 95%;
-    height: 95%;
+    width: 16.2rem;
+    height:12.5rem;
+  }
+
+  .chambre{
+    height: 7rem;
   }
 
   .populaires {
@@ -494,13 +492,12 @@ footer, .apropos__container { /*Pourquoi rien fonctionne sans footer+,+apropos??
   }
 
   .appBar__icon{
-    margin: 0rem 5rem 1rem 8rem;
+    margin: 0rem 5rem 1rem 6rem;
   }
   .appBar__nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
   }
   
 }
