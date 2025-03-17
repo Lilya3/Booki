@@ -395,18 +395,55 @@ footer, .apropos__container { /*Pourquoi rien fonctionne sans footer+,+apropos??
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media (max-width: 1024px) {
+
+  .main-container{
+    width: 100%;
+    max-width: 1024px;
+
+  }
+
+  .search__container{
+    font-size: 0.9rem;
+  }
+
+  .searchBar ,
+  .searchBar__logomaps,
+  .searchBar__text,
+  .searchBar__search{
+    max-width: 50%;
+  }
+
+  .searchBar input{
+    font-size: 1rem;
+  }
   
   .renseignements{
     margin: 3rem;
   }
-  
+
+  .filter__container{
+    flex-wrap: wrap;
+  }
+
+  .filter__container h3{
+    width: 95%;
+    margin-bottom: 0.5rem;
+  }
+
   .hebergements-and-populaires {
     flex-direction: column;
     margin: 3rem;
+    width: 90%;
   }
 
   .hebergements {
-    width: 100%;
+    width:100%;
+    margin-bottom: 3rem;
+  }
+
+  .card__chambre{
+    width: 95%;
+    height: 95%;
   }
 
   .populaires {
@@ -436,14 +473,34 @@ footer, .apropos__container { /*Pourquoi rien fonctionne sans footer+,+apropos??
     margin: 3rem;
   }
 
+  .activites__container{
+    padding-right: 2rem;
+  }
+
 
   .activites__card img {
-    width: 11.063rem;
+    width: 12.063rem;
     height: 11.875rem;
   }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* ... */
+
+  .appBar{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .appBar__icon{
+    margin: 0rem 5rem 1rem 8rem;
+  }
+  .appBar__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  
 }
