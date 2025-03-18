@@ -10,6 +10,7 @@
     margin-bottom: 3.5rem;
 }
 
+
 .appBar__nav-item{
     margin-left: 4rem;
     padding-top: 1.38rem;
@@ -19,12 +20,15 @@
 
 .appBar__nav-item:hover{
     color: var(--main-color);
-    border-top: 2px solid var(--main-color);
+    border-top: 0.2rem solid var(--main-color);
 }
 
 .appBar__icon{
-    width: 3.5rem;
-    height: 1.1rem;
+    padding: 0;
+}
+.appBar__icon img{
+    width: 6.5rem;
+    height: 2rem;
 }
 
 /****** Media queries ***********/
@@ -54,26 +58,34 @@
     .appBar__nav{
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      align-items: start;
+      justify-content: space-around;
+      border-bottom: 2px solid rgba(217, 217, 217, 0.2);
+      padding: 1rem;
    }
   
     .appBar__nav-item{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding-left: 3.8rem;
-        padding-right: 3.5rem;
-        margin-left: 0;
+        margin:0;
+        padding: 0;
     }
     
     .appBar__nav-item:hover{
       border-top: none;
-      border-bottom: 2px solid var(--main-color);
+      border-color: var(--main-color);
     }
 
+
     .appBar__icon{
-        margin-left: 11.3rem;
-    }
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        width: 100%;
+        margin-bottom: 1rem;
+        
+   }
   
   
   }
