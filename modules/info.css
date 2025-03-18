@@ -1,0 +1,12 @@
+/******* Info *********/
+
+.info__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 0rem 0 2rem 0;
+    cursor: default;
+  }
+  

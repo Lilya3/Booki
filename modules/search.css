@@ -1,0 +1,75 @@
+/******Section Search**********/
+
+.search__container {
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+  }
+  
+  .search__title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .search__subtitle {
+    margin-bottom: 2rem;
+  }
+  
+  .searchBar {
+    display: flex;
+    flex-direction: row;
+    height: 3.063rem;
+  }
+  
+  .searchBar__logomaps,
+  .searchBar__text,
+  .searchBar__search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .searchBar__logomaps img {
+    padding: 15px 16px 15px 16px;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    background-color: #f2f2f2;
+  }
+  
+  .searchBar__text input {
+    padding: 15px 16px 15px 16px;
+    border: solid 1px #f2f2f2;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .searchBar__search input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 700;
+    width: 8.25rem;
+    padding: 15px 16px 15px 16px;
+    border: 1px solid var(--main-color);
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    cursor:pointer;
+  }
+  
+  /*.searchBar__search input[type="image"]{
+  
+  }*/
+  
+  
+  input::placeholder {
+    color: black;
+    font-size: 1.17rem;
+  }
+  
+  .searchBar +input[type="text"]{
+    font-size: 1.17rem;
+  }
+  
+  input:focus {
+    opacity: 0.4;
+    outline: none;
+  }

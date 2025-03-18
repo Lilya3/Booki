@@ -1,0 +1,31 @@
+/****************** FOOTER ***********************/
+
+.apropos__container {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    justify-content: space-around;
+    height: 10.188rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  
+  .apropos__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 1.5rem;
+  }
+  
+  .apropos__title{
+      padding-bottom: 1rem;
+      cursor: default;
+  }
+  
+  .footer__appBar ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  .footer__appBar li{
+      margin-bottom: 1rem;
+  }

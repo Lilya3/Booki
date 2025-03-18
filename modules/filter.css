@@ -1,0 +1,28 @@
+/******* Filter ********/
+
+.filter__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    cursor: default;
+    gap: 1rem;
+    margin: 2rem 0 2rem 0;
+  }
+  
+  .filter__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+    border: 3px solid var(--grey-color);
+    border-radius: 1.8rem;
+  }
+  
+  .filter__box:hover {
+    background-color: rgba(0, 101, 252, 0.2);
+  }
+  
+  
+  
