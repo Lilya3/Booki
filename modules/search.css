@@ -55,10 +55,15 @@
     cursor:pointer;
   }
   
-  /*.searchBar__search input[type="image"]{
-  
-  }*/
-  
+
+  .searchBar__search input[type="image"]{
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px 16px 15px 16px;
+    border: 1px solid var(--main-color);
+    border-radius: 0.7rem;
+    cursor: pointer;
+  }
   
   input::placeholder {
     color: black;
