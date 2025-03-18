@@ -102,7 +102,7 @@ a {
   text-align: center;
 }
 
-.searchBar__search input {
+.searchBar__search input[type="submit"] {
   background-color: var(--main-color);
   color: white;
   font-weight: 700;
@@ -113,12 +113,15 @@ a {
   border-bottom-right-radius: 0.8rem;
 }
 
+.searchBar__search input[type="image"]{
+
+}
 input::placeholder {
   color: black;
   font-size: 1.17rem;
 }
 
-.searchBar__search input{
+.searchBar +input[type="text"]{
   font-size: 1.17rem;
 }
 
@@ -351,7 +354,7 @@ img {
 
 
 
-.apropos__container { /*Pourquoi rien fonctionne sans footer+,+apropos???*/
+.apropos__container {
   display: flex;
   flex-direction: row;
   background-color: #f2f2f2;
@@ -388,7 +391,7 @@ img {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 
-@media (max-width: 1024px) {
+@media (min-width:768px) and (max-width: 1024px) {
 
   .main-container{
     width: 100%;
@@ -407,9 +410,14 @@ img {
     max-width: 50%;
   }
 
-  .searchBar input{
+  input [type="text"]{
     font-size: 1rem;
   }
+
+  .searchBar__search input[type="image"]{
+    display: none;
+  }
+
   
   .renseignements{
     margin: 3rem;
@@ -483,21 +491,24 @@ img {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (min-width: 320px) and (max-width: 767.98px) {
 
-  .appBar{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
+  .search__container{
+    margin-left: 1rem;
   }
 
-  .appBar__icon{
-    margin: 0rem 5rem 1rem 6rem;
+  .searchBar{
+    margin-left: 1rem;
   }
-  .appBar__nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
+  .searchBar__search input[type="submit"]{
+    display: none;
   }
+
+  /* .searchBar__search input[type="image"]{
   
+  }*/
+  
+
+
 }

@@ -27,7 +27,10 @@
     height: 1.1rem;
 }
 
-@media (max-width:1024px){
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media (min-width:768px) and (max-width:1024px){
    .appBar{
     margin-left: 3rem;
    }
@@ -37,3 +40,41 @@
     margin-left: 0rem;
    }
 }
+
+
+/* Small devices (phones, less than 768px) */
+@media (min-width:320px) and (max-width: 767.98px) {
+
+    .appBar{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .appBar__nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+   }
+  
+    .appBar__nav-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 3.8rem;
+        padding-right: 3.5rem;
+        margin-left: 0;
+    }
+    
+    .appBar__nav-item:hover{
+      border-top: none;
+      border-bottom: 2px solid var(--main-color);
+    }
+
+    .appBar__icon{
+        margin-left: 11.3rem;
+    }
+  
+  
+  }
+  
