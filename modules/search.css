@@ -78,3 +78,10 @@
     opacity: 0.4;
     outline: none;
   }
+
+
+  @media (min-width:1024px){
+    .searchBar__search input[type="image"]{
+      display: none;
+    }
+  }
