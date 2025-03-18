@@ -58,10 +58,10 @@
     .appBar__nav{
       display: flex;
       flex-direction: row;
-      align-items: start;
       justify-content: space-around;
       border-bottom: 2px solid rgba(217, 217, 217, 0.2);
-      padding: 1rem;
+      padding: 0.8rem;
+      position: relative;
    }
   
     .appBar__nav-item{
@@ -71,12 +71,25 @@
         margin:0;
         padding: 0;
     }
+
+    .appBar__nav-item::after{
+        content: '';
+        display: block;
+        height: 2px;
+        background-color: transparent;
+    }
+    
+    .appBar__nav-item:hover::after{
+        background-color: var(--main-color);
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
     
     .appBar__nav-item:hover{
       border-top: none;
-      border-color: var(--main-color);
     }
-
 
     .appBar__icon{
         display: flex;
@@ -84,7 +97,11 @@
         justify-content:center;
         width: 100%;
         margin-bottom: 1rem;
-        
+   }
+
+   .appBar__icon img{
+    width: 100px;
+    height: 30px;
    }
   
   
