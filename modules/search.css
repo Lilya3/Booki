@@ -1,4 +1,4 @@
-/******Section Search**********/
+/****************** Section Search ******************/
 
 .search__container {
     display: flex;
@@ -89,12 +89,18 @@
     outline: none;
   }
 
+/****************** Media queries ******************/
 
   @media (min-width:1024px){
     .searchBar__search input[type="image"]{
       display: none;
     }
   }
+
+
+
+/****************** Tablet ******************/
+/* Medium devices (tablets, less/equal than 1024px) */ 
 
   @media (min-width:768px) and (max-width: 1024px){
 
@@ -117,6 +123,10 @@
       display: none;
     }
   }
+
+
+
+/****************** Phone ******************/
 
   @media (min-width: 320px) and (max-width: 767.98px){
 

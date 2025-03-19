@@ -7,7 +7,7 @@
 @import "../modules/info.css";
 @import "../modules/search.css";
 
-/****** General ***********/
+/****************** General ******************/
 * {
   font-family: "Raleway", sans-serif;
 }
@@ -67,7 +67,8 @@ a {
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
-/****** Media queries ***********/
+/****************** Media queries ******************/
+/****************** Tablet ******************/
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media (min-width:768px) and (max-width: 1024px) {
