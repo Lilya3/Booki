@@ -48,6 +48,40 @@ img {
   padding-bottom: 1.5rem;
 }
 
+
+
+/****************** Media queries ******************/
+/****************** Tablet ******************/
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media (min-width:768px) and (max-width: 1024px){
+  .activites{
+    margin: 3rem;
+  }
+
+  .activites__container{
+    justify-content: center;
+    gap: 1;
+  }
+
+  .activites__card{
+    width: 11.5rem;
+  }
+
+
+  .activites__card img {
+    width: 11.5rem;
+    height: 11.875rem;
+  }
+
+  .card-content .card-title{
+    font-size: 0.8rem;
+  }
+}
+
+
+/****************** Phone ******************/
+
 @media (min-width: 320px) and (max-width: 767.98px){
 
   .activites{

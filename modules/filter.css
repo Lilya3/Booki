@@ -1,4 +1,5 @@
-/******* Filter ********/
+
+/****************** Filter ******************/
 
 .filter__container {
     display: flex;
@@ -24,6 +25,12 @@
     background-color: rgba(0, 101, 252, 0.2);
   }
   
+
+
+/****************** Media queries ******************/
+/****************** Tablet ******************/
+/* Medium devices (tablets, less/equal than 1024px) */
+
   @media (min-width:768px) and (max-width: 1024px){
     .filter__container{
       flex-wrap: wrap;
@@ -46,4 +53,43 @@
     }
 
   }
+
   
+
+
+  /****************** Phone ******************/
+  /* Small devices (phones, less than 768px) */
+
+  @media (min-width: 320px) and (max-width: 767.98px) {
+  
+
+
+  .filter__container{
+    flex-wrap: wrap;
+    margin-left: 0.8rem;
+  }
+
+  .filter__container .h3filtres{
+    width: 95%;
+    margin-left: 1rem;
+  }
+
+  .filter__box{
+    display: flex;
+    align-items: center;
+    width: 9rem;
+    height: 1.7rem;
+    padding: 8px 8px 10px;
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .filter__box img{
+    padding-left: 0.2rem;
+  }
+
+  .filter__box h3{
+    padding-left: 0.2rem;
+  }
+
+}

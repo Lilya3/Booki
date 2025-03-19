@@ -1,4 +1,4 @@
-/****************** FOOTER ***********************/
+/****************** FOOTER ******************/
 
 .apropos__container {
     display: flex;
@@ -29,6 +29,13 @@
   .footer__appBar li{
       margin-bottom: 1rem;
   }
+
+
+
+/****************** Media queries ******************/
+/****************** Phone ******************/
+/* Small devices (phones, less than 768px) */
+
 
   @media (min-width: 320px) and (max-width: 767.98px){
     .apropos__container{

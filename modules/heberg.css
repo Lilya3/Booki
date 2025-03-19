@@ -1,4 +1,4 @@
-/****** Hebergements And Populaires ***********/
+/****************** Hebergements And Populaires ******************/
 
 .hebergements-and-populaires {
     display: flex;
@@ -13,7 +13,7 @@
   }
 
   
-/********* Hebergements ***********/
+/****************** Hebergements ******************/
 
 .hebergements {
     width: 65%;
@@ -87,7 +87,7 @@
   
   
   
-  /****** Populaires ***********/
+  /****************** Populaires ******************/
   
   .populaires {
     width: 32%;
@@ -134,7 +134,66 @@
     margin-bottom: 5px;
   }
 
-  /* Small devices (phones, less than 768px) */
+
+/****************** Media queries ******************/
+
+/****************** Tablet ******************/
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media (min-width:768px) and (max-width: 1024px) {
+
+  .hebergements-and-populaires {
+    flex-direction: column;
+    margin: 3rem;
+    width: 90%;
+  }
+
+  .hebergements {
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+
+  .card__chambre{
+    width: 16.2rem;
+    height:12.5rem;
+  }
+
+  .chambre{
+    height: 7rem;
+  }
+
+  .populaires {
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .populaires-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .populaires-cards a {
+    width: 30%;
+  }
+
+  .populaires-cards .card-title {
+    font-size: 16px;
+  }
+
+  .populaires-cards .card-subtitle {
+    font-size: 16px;
+  }
+
+}
+
+
+
+
+/****************** Phone ******************/
+/* Small devices (phones, less than 768px) */
+
+
   @media (min-width: 320px) and (max-width: 767.98px){
     .hebergements-and-populaires{
       flex-direction: column-reverse;
