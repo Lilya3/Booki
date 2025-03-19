@@ -47,3 +47,23 @@ img {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
+@media (min-width: 320px) and (max-width: 767.98px){
+
+  .activites{
+    margin: 4rem 0 0 0;
+  }
+
+  .activites__container{
+    flex-wrap: wrap;
+
+  }
+  .activites__card img{
+    height: 8rem;
+  }
+
+  .activites__card .card-content{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+}

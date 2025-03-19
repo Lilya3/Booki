@@ -29,3 +29,14 @@
   .footer__appBar li{
       margin-bottom: 1rem;
   }
+
+  @media (min-width: 320px) and (max-width: 767.98px){
+    .apropos__container{
+      display: unset;
+      margin: 1rem 0 1rem 1rem;
+    }
+
+    .apropos__content{
+      margin-top: 0;
+    }
+  }
