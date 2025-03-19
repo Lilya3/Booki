@@ -24,5 +24,26 @@
     background-color: rgba(0, 101, 252, 0.2);
   }
   
+  @media (min-width:768px) and (max-width: 1024px){
+    .filter__container{
+      flex-wrap: wrap;
+    }
   
+    .filter__container .h3filtres{
+      width: 95%;
+      margin-bottom: 0.5rem;
+    }
+
+    .filter__box{
+      padding-bottom: 0.8rem;
+      padding-left: 1rem;
+      padding-top: 0.8rem ;
+    }
+
+    .filter__box img{
+      width: 1.6rem;
+      height: 1.5rem;
+    }
+
+  }
   

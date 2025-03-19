@@ -17,8 +17,10 @@
   .searchBar {
     display: flex;
     flex-direction: row;
-    height: 3.063rem;
+    height: 3rem;
+    width: 20rem;
     border: 1px solid #f2f2f2;
+    border-radius: 0.9rem;
   }
   
   .searchBar__logomaps,
@@ -30,25 +32,30 @@
     align-items: center;
   }
   
+  .searchBar__logomaps{
+    border-right: solid 1px #f2f2f2;
+  }
+
   .searchBar__logomaps img {
-    padding: 15px 16px 15px 16px;
+    padding: 15px 25px 15px 16px;
     border-top-left-radius: 0.8rem;
     border-bottom-left-radius: 0.8rem;
     background-color: #f2f2f2;
   }
   
   .searchBar__text input {
-    padding: 15px 16px 15px 16px;
-    border: solid 1px #f2f2f2;
+    padding: 15px 20px 15px 20px;
     font-weight: 700;
     text-align: center;
+    border: 0px;
   }
   
   .searchBar__search input[type="submit"] {
     background-color: var(--main-color);
     color: white;
     font-weight: 700;
-    width: 8.25rem;
+    width: 7.5rem;
+    height: 3.1rem;
     padding: 15px 16px 15px 16px;
     border: 1px solid var(--main-color);
     border-top-right-radius: 0.8rem;
@@ -58,11 +65,13 @@
   
 
   .searchBar__search input[type="image"]{
+    display: block;
     background-color: var(--main-color);
     color: white;
     padding: 15px 16px 15px 16px;
     border: 1px solid var(--main-color);
     border-radius: 0.7rem;
+    filter: drop-shadow(-1px 3px 2px rgba(0, 0, 0, 0.2));
     cursor: pointer;
   }
   
