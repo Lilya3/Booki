@@ -23,12 +23,6 @@
   color: var(--main-color);
 }
 
-.fa-info{
-  border: 1px solid var(--grey-color) ;
-  padding: 6px 11px 6px 11px;
-  border-radius: 2rem;
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -82,25 +76,6 @@ a {
     width: 100%;
     max-width: 1024px;
 
-  }
-
-  .search__container{
-    font-size: 0.9rem;
-  }
-
-  .searchBar ,
-  .searchBar__logomaps,
-  .searchBar__text,
-  .searchBar__search{
-    max-width: 50%;
-  }
-
-  input [type="text"]{
-    font-size: 1rem;
-  }
-
-  .searchBar__search input[type="image"]{
-    display: none;
   }
 
   
@@ -169,30 +144,7 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (min-width: 320px) and (max-width: 767.98px) {
-
-  .search__container{
-    margin-left: 1.5rem;
-  }
-
-  .searchBar{
-    margin-left: 1.5rem;
-  }
-
-  .searchBar__search input[type="submit"]{
-    display: none;
-  }
-
-  .searchBar__text input{
-    padding-right: 3rem;
-  }
-
-  .info__box{
-    margin-left: 1.5rem;
-  }
-
-  /*.searchBar__search input[type="image"]{
-    width: 50%;
-  }*/
+  
 
 
   .filter__container{

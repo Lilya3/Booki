@@ -9,4 +9,21 @@
     padding: 0rem 0 2rem 0;
     cursor: default;
   }
+
+  .fa-info{
+    border: 1px solid var(--grey-color) ;
+    padding: 6px 11px 6px 11px;
+    border-radius: 2rem;
+  }
   
+
+  @media (min-width: 320px) and (max-width: 767.98px){
+    .info__box{
+      gap: 0.5rem;
+    }
+
+    .fa-solid,
+    .fa-info{
+      font-size: 0.9rem;
+    }
+  }
