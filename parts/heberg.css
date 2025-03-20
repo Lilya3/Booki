@@ -34,7 +34,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-    gap: 1.33rem;
+    gap: 2rem;
   }
   
   .hebergements-cards .card-content {
