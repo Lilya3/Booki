@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: stretch;
   gap: 2rem;
   margin-top: 2.5rem;
 }
@@ -42,11 +43,8 @@ img {
 .activites .card-content {
   display: flex;
   flex-direction: row;
-  justify-content: start;
   align-items: center;
-  padding-left: 1.5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.6rem;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
 }
 
 
@@ -58,6 +56,11 @@ img {
 @media (min-width:768px) and (max-width: 1024px){
   .activites{
     margin: 3rem;
+  }
+
+  .activites .card-content{
+    height: 10%;
+    padding: 1rem;
   }
 
   .activites__container{
