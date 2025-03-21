@@ -26,7 +26,6 @@
   
   .hebergements h3 {
     padding-top: 2rem;
-    margin-left: 1rem;
     cursor: default;
   }
   
@@ -185,6 +184,7 @@
   .populaires-cards .card-subtitle {
     font-size: 16px;
   }
+
 
 }
 
