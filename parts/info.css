@@ -19,6 +19,14 @@
   
   
 /****************** Media queries ******************/
+/****************** Tablet ******************/
+
+@media (min-width:768px) and (max-width:1024px){
+
+  .info__box{
+    padding: 0rem;
+  }
+}
 
 /****************** Phone ******************/
 /* Small devices (phones, less than 768px) */

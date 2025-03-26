@@ -33,6 +33,23 @@
 
 
 /****************** Media queries ******************/
+/****************** Tablet ******************/
+
+
+@media (min-width:768px) and (max-width:1024px){
+  .apropos__container{
+    justify-content:stretch;
+    gap: 1.5rem;
+  }
+
+  .apropos__content{
+    margin-left: 0;
+    padding-left: 1rem;
+    padding-right: 3rem;
+  }
+}
+
+
 /****************** Phone ******************/
 /* Small devices (phones, less than 768px) */
 

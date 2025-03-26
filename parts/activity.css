@@ -64,17 +64,16 @@ img {
   }
 
   .activites__container{
-    justify-content: center;
-    gap: 1;
+    justify-content: space-around;
   }
 
   .activites__card{
-    width: 11.5rem;
+    width: 12rem;
   }
 
 
   .activites__card img {
-    width: 11.5rem;
+    width: 12rem;
     height: 11.875rem;
   }
 
