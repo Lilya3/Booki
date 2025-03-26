@@ -6,7 +6,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-    padding: 0rem 0 2rem 0;
+    margin-bottom: 2rem;
     cursor: default;
   }
 
@@ -24,7 +24,7 @@
 @media (min-width:768px) and (max-width:1024px){
 
   .info__box{
-    padding: 0rem;
+    margin: 0rem;
   }
 }
 
