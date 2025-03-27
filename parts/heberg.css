@@ -36,7 +36,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-    gap: 1.5rem;
+    gap: 1.8rem;
   }
   
   .hebergements-cards .card-content {
@@ -64,18 +64,18 @@
   
   .card__chambre {
     background-color: white;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 5px;
     width: 15rem;
-    height: 12.938rem;
+    height: 12.5rem;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
   }
   
   .chambre {
     width: 100%;
-    height: 7.75rem;
-    border-top-right-radius: 1.5rem;
-    border-top-left-radius: 1.5rem;
+    height: 7rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
     object-fit: cover;
   }
   
@@ -184,6 +184,10 @@
 
   .populaires-cards .card-subtitle {
     font-size: 16px;
+  }
+
+  .hebergements-cards{
+    gap: 1.5rem;
   }
 
 
