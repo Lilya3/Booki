@@ -6,8 +6,8 @@
     background-color: #f2f2f2;
     justify-content:stretch;
     height: 10.188rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   
   .apropos__content {
@@ -39,14 +39,14 @@
 
 @media (min-width:768px) and (max-width:1024px){
   .apropos__container{
-    justify-content:stretch;
-    gap: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .apropos__content{
-    margin-left: 0;
-    padding-left: 1rem;
-    padding-right: 3rem;
+    margin-right: 0rem;
+    padding-left: 0.2rem;
+    padding-right: 6rem;
   }
 }
 
@@ -58,10 +58,11 @@
   @media (min-width: 320px) and (max-width: 767.98px){
     .apropos__container{
       display: unset;
-      margin: 1rem 0 1rem 1rem;
+      margin: 1rem 0rem 1rem 0rem;
     }
 
     .apropos__content{
-      margin-top: 0;
+      margin-top: 0rem;
+      margin-right: 0rem;
     }
   }

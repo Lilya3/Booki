@@ -32,6 +32,8 @@
 /* Small devices (phones, less than 768px) */
 
   @media (min-width: 320px) and (max-width: 767.98px){
+
+
     .info__box{
       gap: 0.5rem;
     }

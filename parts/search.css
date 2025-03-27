@@ -1,4 +1,8 @@
 /****************** Section Search ******************/
+.renseignements{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
 
 .search__container {
     display: flex;
@@ -130,6 +134,11 @@
 /****************** Phone ******************/
 
   @media (min-width: 320px) and (max-width: 767.98px){
+
+    .renseignements{
+      margin-left:0rem;
+      margin-right: 0rem;
+    }
 
     .search__container{
       margin-left: 1.5rem;
