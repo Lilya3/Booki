@@ -26,7 +26,7 @@
     cursor: default;
   }
   
-  .hebergements h3 {
+  .hebergements .text-afficher {
     padding-top: 2rem;
     cursor: default;
   }
