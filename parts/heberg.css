@@ -212,8 +212,12 @@
 
     .hebergements-and-populaires .hebergements{
       background-color: white;
-      padding: 0;
+      padding: 1.875rem;
       border-radius: 0px;
+    }
+
+    .hebergements{
+      width: 100%;
     }
 
     .populaires{
@@ -224,27 +228,26 @@
       margin: 2rem 0 1rem 1rem;
     }
 
-    .hebergements{
-      width: 100%;
-    }
-
     .text-afficher {
-      padding-top: 1rem !important;
+      padding-top: 1rem ;
       padding-left: 2rem;
     }
 
     .hebergements-cards{
-      justify-content:center;
+      flex-direction: column;
+      flex-wrap: nowrap;
       border-radius: 0;
     }
 
+
     .hebergements-cards .card-text {
       padding-bottom: 0.5rem;
+      justify-content: center;
     }
 
 
     .card__chambre{
-      width: 21rem;
+      width: 100%;
       border-radius: 1.2rem;
       padding: 5px;
     }  

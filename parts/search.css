@@ -36,16 +36,18 @@
     align-items: center;
   }
   
-  .searchBar__logomaps{
-    border-right: solid 1px #f2f2f2;
+  .searchBar__logomaps i{
+    font-size: 20px;
   }
 
-  .searchBar__logomaps img {
-    padding: 15px 16px 15px 16px;
+  .fa-location-dot{
+    color: black;
+    padding: 17px;
     border-top-left-radius: 0.8rem;
     border-bottom-left-radius: 0.8rem;
     background-color: #f2f2f2;
   }
+
   
   .searchBar__text input {
     padding: 15px 16px 15px 16px;
@@ -138,14 +140,22 @@
     .renseignements{
       margin-left:0rem;
       margin-right: 0rem;
+      width: 100%;
     }
 
     .search__container{
       margin-left: 1.5rem;
     }
+
+    .frame__searchBar{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   
     .searchBar{
       margin-left: 1.5rem;
+      justify-content: center;
     }
   
     .searchBar__search input[type="submit"]{

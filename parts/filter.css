@@ -19,6 +19,11 @@
     padding: 0.8rem 1.2rem 0.8rem 1.2rem;
     border: 3px solid var(--grey-color);
     border-radius: 1.8rem;
+    background-color: white;
+  }
+
+  .filter__box i{
+    font-size: 20px;
   }
   
   .filter__box:hover {
@@ -36,7 +41,7 @@
       flex-wrap: wrap;
     }
   
-    .filter__container .h3filtres{
+    .filter__container h2{
       width: 95%;
       margin-bottom: 0.5rem;
     }
@@ -66,26 +71,25 @@
 
   .filter__container{
     flex-wrap: wrap;
-    margin-left: 0.8rem;
+    margin-left: 0.8rem;   
   }
 
-  .filter__container .h3filtres{
+  .filter__container h2{
     width: 95%;
     margin-left: 1rem;
   }
 
   .filter__box{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    width: 9rem;
-    height: 1.7rem;
-    padding: 8px 8px 10px;
-    font-size: 0.8rem;
     margin-bottom: 0.4rem;
+    justify-content: start;
+    padding: 10px;
   }
 
-  .filter__box img{
+  .filter__container button {
+    width:25%;
+  }
+
+  .filter__box i{
     padding-left: 0.2rem;
   }
 

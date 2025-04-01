@@ -28,49 +28,47 @@
 
             <section class="renseignements">
                 <div class="search__container">
-                <h2 class="search__title">Trouvez votre hébergement pour des vacances de rêve</h2>
+                <h1 class="search__title">Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p class="search__subtitle">En plein centre-ville ou en pleine nature</p>
                 </div>
-                <div class="searchBar">
+                <div class="frame__searchBar">
+                <form class="searchBar" method="get" action="#">
                     <div class="searchBar__logomaps">
-                    <img src="images/icon/maps.svg" alt="icone de localisation">
+                        <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div class="searchBar__text">
-                    <form method="get" action="#">
                         <label for="searsh"></label>
                         <input type="text" name="searsh" id="searsh" placeholder="Marseille, France">
-                    </form>
                     </div>
                     <div class="searchBar__search">
-                    <form>
                         <input type="submit" value="Rechercher">
                         <input type="image" src="images/icon/searsh.svg" alt="icon de recherche">
-                    </form>
                     </div>
+                </form>
                 </div>
             
 
                 <div class="filter__container">
-                    <h3 class="h3filtres">Filtres</h3>
-                    <div class="filter__box">
-                    <img src="images/icon/Property1=price.png" alt="icone billet">
+                    <h2>Filtres</h2>
+                    <button class="filter__box">
+                        <i class="fa-solid fa-money-bill-wave"></i>
                         <h3>Économique</h3>
-                    </div>
+                    </button>
 
-                    <div class="filter__box">
-                        <img src="images/icon/Property1=family.png" alt="icone Famille"> 
+                    <button class="filter__box">
+                        <i class="fa-solid fa-person"></i> 
                         <h3>Famillial</h3>
-                    </div>
+                    </button>
 
-                    <div class="filter__box">
-                        <img src="images/icon/Property1=romantic.png" alt="icone coeur">
+                    <button class="filter__box">
+                        <i class="fa-solid fa-heart"></i>
                         <h3>Romantique</h3>
-                    </div>
+                    </button>
 
-                    <div class="filter__box">
-                        <img src="images/icon/Property1=fire.png" alt="icone flame">
+                    <button class="filter__box">
+                        <i class="fa-solid fa-fire"></i>
                         <h3>Nos pépites</h3>
-                    </div>
+                    </button>
                 </div>
             <div class="info__box">
                 <i class="fa-solid fa-info" aria-hidden="true"></i>
