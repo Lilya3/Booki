@@ -10,6 +10,14 @@
     gap: 1rem;
     margin: 2rem 0 2rem 0;
   }
+
+  .frame__filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+  }
   
   .filter__box {
     display: flex;
@@ -70,8 +78,10 @@
 
 
   .filter__container{
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 0.8rem;   
+    margin-left: 0rem;
+    justify-content: center;
   }
 
   .filter__container h2{
@@ -81,12 +91,20 @@
 
   .filter__box{
     margin-bottom: 0.4rem;
-    justify-content: start;
     padding: 10px;
+    justify-content: start;
+    gap: 0.2rem;
+  }
+
+  .frame__filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .filter__container button {
-    width:25%;
+    width: 150px;
   }
 
   .filter__box i{
