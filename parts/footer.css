@@ -8,6 +8,7 @@
     height: 10.188rem;
     margin-left: 3rem;
     margin-right: 3rem;
+    max-width: 93%;
   }
   
   .apropos__content {
@@ -15,7 +16,8 @@
     flex-direction: column;
     align-items: start;
     margin: 1.5rem;
-    margin-right: 15rem;
+    margin-right: 1rem;
+    width: 30%;
   }
   
   .apropos__title{
@@ -38,15 +40,22 @@
 
 
 @media (min-width:768px) and (max-width:1024px){
+
   .apropos__container{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    justify-content: flex-start;
+  }
+  
+  .apropos__content{
+    margin-right: 2rem;
+    margin-top: 1rem;
   }
 
-  .apropos__content{
-    margin-right: 0rem;
-    padding-left: 0.2rem;
-    padding-right: 6rem;
+  .footer__appBar li{
+    margin-bottom: 10px;
+  }
+
+  .apropos__title{
+    padding-bottom: 12px;
   }
 }
 
@@ -62,6 +71,7 @@
     }
 
     .apropos__content{
+      width: 100%;
       margin-top: 0rem;
       margin-right: 0rem;
     }

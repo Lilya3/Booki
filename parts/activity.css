@@ -43,6 +43,24 @@
 
 
 /****************** Media queries ******************/
+/****************** Desktop ******************/
+/* hight devices (desktop, 1024px to 1440px) */
+
+@media (min-width:1024px) and (max-width:1440px){
+  .activites .card-content{
+    justify-content: start;
+  }
+
+
+  .card-title{
+    margin: 0;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+
 /****************** Tablet ******************/
 /* Medium devices (tablets, less/equal than 1024px) */
 
@@ -54,6 +72,7 @@
   .activites .card-content {
     padding: 5px 10px 10px 15px
   }
+  
 
   .card-title{
     margin: 0;

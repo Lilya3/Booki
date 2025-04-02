@@ -33,12 +33,13 @@
   .hebergements-cards{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 15px;
   }
 
   .hebergements-cards a{
-    width: 31.8%;
+    width: 29.3%;
     margin-left: 10px;
   }
 
