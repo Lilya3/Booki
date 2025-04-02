@@ -154,6 +154,15 @@
     width: 100%;
   }
 
+  .hebergements-cards a{
+    width: 30%;
+    margin-left: 0px;
+  }
+
+  .hebergements-cards{
+    justify-content: space-around;
+  }
+
   .populaires {
     width: 100%;
     margin-top: 16px;
@@ -175,15 +184,6 @@
 
   .populaires-cards .card-subtitle {
     font-size: 16px;
-  }
-
-  .hebergements-cards a{
-    width: 30%;
-    margin-left: 0px;
-  }
-
-  .hebergements-cards{
-    justify-content: space-around;
   }
 
 

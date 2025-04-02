@@ -41,7 +41,6 @@
   }
 
   .fa-location-dot{
-    color: black;
     padding: 17px;
     border-top-left-radius: 0.8rem;
     border-bottom-left-radius: 0.8rem;
@@ -71,7 +70,7 @@
   }
   
 
-  .searchBar__search input[type="image"]{
+  .searchBar__search button[type="submit"]{
     display: block;
     background-color: var(--main-color);
     color: white;
@@ -99,7 +98,7 @@
 /****************** Media queries ******************/
 
   @media (min-width:1024px){
-    .searchBar__search input[type="image"]{
+    .searchBar__search button[type="submit"]{
       display: none;
     }
   }
@@ -126,7 +125,7 @@
       font-size: 1rem;
     }
   
-    .searchBar__search input[type="image"]{
+    .searchBar__search button[type="submit"]{
       display: none;
     }
   }

@@ -34,7 +34,7 @@
                 <div class="frame__searchBar">
                 <form class="searchBar" method="get" action="#">
                     <div class="searchBar__logomaps">
-                        <i class="fa-solid fa-location-dot"></i>
+                        <i class="fa-solid fa-location-dot" style="color: black;"></i>
                     </div>
                     <div class="searchBar__text">
                         <label for="searsh"></label>
@@ -42,7 +42,9 @@
                     </div>
                     <div class="searchBar__search">
                         <input type="submit" value="Rechercher">
-                        <input type="image" src="images/icon/searsh.svg" alt="icon de recherche">
+                        <button type="submit">
+                            <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
+                        </button>
                     </div>
                 </form>
                 </div>
@@ -51,24 +53,24 @@
                 <div class="filter__container">
                     <h2>Filtres</h2>
                     <div class="frame__filter">
-                    <button class="filter__box">
+                    <button class="filter__box" type="button">
                         <i class="fa-solid fa-money-bill-wave"></i>
-                        <h3>Économique</h3>
+                        Économique
                     </button>
 
-                    <button class="filter__box">
+                    <button class="filter__box" type="button">
                         <i class="fa-solid fa-person"></i> 
-                        <h3>Famillial</h3>
+                        Famillial
                     </button>
 
-                    <button class="filter__box">
+                    <button class="filter__box" type="button">
                         <i class="fa-solid fa-heart"></i>
-                        <h3>Romantique</h3>
+                        Romantique
                     </button>
 
-                    <button class="filter__box">
+                    <button class="filter__box" type="button">
                         <i class="fa-solid fa-fire"></i>
-                        <h3>Nos pépites</h3>
+                        Nos pépites
                     </button>
                 </div>
                 </div>
