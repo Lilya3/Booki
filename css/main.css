@@ -1,0 +1,88 @@
+@import "../parts/header.css";
+@import "../parts/activity.css";
+@import "../parts/filter.css";
+@import "../parts/footer.css";
+@import "../parts/header.css";
+@import "../parts/heberg.css";
+@import "../parts/info.css";
+@import "../parts/search.css";
+
+/****************** General ******************/
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --main-color: #0065fc;
+  --main-bg-color: #f2f2f2;
+  --filter-bg-color: #deebff;
+  --grey-color: #d9d9d9;
+}
+
+.fa-solid {
+  color: var(--main-color);
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1440px;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2{
+  font-size: 22px;
+}
+
+.section-title {
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px;
+  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.euro {
+  font-weight: 700;
+}
+
+.neutral-star {
+  color: var(--main-bg-color);
+}
+
+
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****************** Media queries ******************/
+/****************** Tablet ******************/
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media (min-width:768px) and (max-width: 1024px) {
+
+  .main-container{
+    max-width: 1024px;
+  }
+
+  .renseignements{
+    margin: 3rem;
+  }
+
+}

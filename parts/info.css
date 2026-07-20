@@ -1,0 +1,45 @@
+/****************** Info ******************/
+
+.info__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    cursor: default;
+  }
+
+  .fa-info{
+    border: 1px solid var(--grey-color) ;
+    padding: 6px 11px 6px 11px;
+    border-radius: 2rem;
+  }
+
+  
+  
+/****************** Media queries ******************/
+/****************** Tablet ******************/
+
+@media (min-width:768px) and (max-width:1024px){
+
+  .info__box{
+    margin: 0rem;
+  }
+}
+
+/****************** Phone ******************/
+/* Small devices (phones, less than 768px) */
+
+  @media (min-width: 320px) and (max-width: 767.98px){
+
+
+    .info__box{
+      gap: 0.5rem;
+    }
+
+    .fa-solid,
+    .fa-info{
+      font-size: 0.9rem;
+    }
+  }

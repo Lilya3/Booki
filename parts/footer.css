@@ -1,0 +1,78 @@
+/****************** FOOTER ******************/
+
+.apropos__container {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    justify-content:stretch;
+    height: 10.188rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    max-width: 93%;
+  }
+  
+  .apropos__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 1.5rem;
+    margin-right: 1rem;
+    width: 30%;
+  }
+  
+  .apropos__title{
+      padding-bottom: 1rem;
+      cursor: default;
+  }
+  
+  .footer__appBar ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  .footer__appBar li{
+      margin-bottom: 1rem;
+  }
+
+
+
+/****************** Media queries ******************/
+/****************** Tablet ******************/
+
+
+@media (min-width:768px) and (max-width:1024px){
+
+  .apropos__container{
+    justify-content: flex-start;
+  }
+  
+  .apropos__content{
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+
+  .footer__appBar li{
+    margin-bottom: 10px;
+  }
+
+  .apropos__title{
+    padding-bottom: 12px;
+  }
+}
+
+
+/****************** Phone ******************/
+/* Small devices (phones, less than 768px) */
+
+
+  @media (min-width: 320px) and (max-width: 767.98px){
+    .apropos__container{
+      display: unset;
+      margin: 1rem 0rem 1rem 0rem;
+    }
+
+    .apropos__content{
+      width: 100%;
+      margin-top: 0rem;
+      margin-right: 0rem;
+    }
+  }

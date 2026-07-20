@@ -1,0 +1,105 @@
+/****************** Header ******************/
+
+*{
+    margin: 0;
+}
+
+.appBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.5rem 3rem 3.5rem 3rem;
+}
+
+
+.appBar__nav-item{
+    margin-left: 4rem;
+    padding-top: 1.38rem;
+    cursor:default;
+}
+
+
+.appBar__nav-item:hover{
+    color: var(--main-color);
+    border-top: 0.2rem solid var(--main-color);
+}
+
+.appBar__icon{
+    padding: 0;
+}
+.appBar__icon img{
+    width: 6.5rem;
+    height: 2rem;
+}
+
+
+
+/****************** Media queries ******************/
+/****************** Tablet ******************/
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media (min-width:768px) and (max-width:1024px){
+   .appBar{
+    margin-left: 3rem;
+   }
+
+   .appBar__nav-item{
+    margin-right: 4rem;
+    margin-left: 0rem;
+   }
+}
+
+
+/****************** Phone ******************/
+/* Small devices (phones, less than 768px) */
+
+@media (min-width:320px) and (max-width: 767.98px) {
+
+    .appBar{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0rem;
+    }
+  
+    .appBar__nav{
+      display: flex;
+      width: 98%;
+      flex-direction: row;
+      justify-content: unset;
+      margin-bottom: 2rem;
+   }
+  
+    .appBar__nav-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 50%;
+        margin:0;
+        border-bottom: 2px solid rgba(217, 217, 217, 1);
+        padding:0.5rem 0rem 1rem 0rem;
+    }
+    
+    .appBar__nav-item:active{
+        border-bottom: 2px solid var(--main-color);
+    }
+
+    
+    .appBar__nav-item:hover{
+      border-top: none;
+    }
+
+    .appBar__icon{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        margin: 1rem;
+   }
+
+   .appBar__icon img{
+    width: 60px;
+    height: 18.5px;
+   }
+  
+  }
+  

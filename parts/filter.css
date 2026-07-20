@@ -1,0 +1,121 @@
+
+/****************** Filter ******************/
+
+.filter__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    cursor: default;
+    gap: 1rem;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .frame__filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .filter__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+    border: 3px solid var(--grey-color);
+    border-radius: 1.8rem;
+    background-color: white;
+    font-weight: 700;
+    font-size: 16px;
+
+  }
+
+  .filter__box i{
+    font-size: 20px;
+  }
+  
+  .filter__box:hover {
+    background-color: rgba(0, 101, 252, 0.2);
+  }
+  
+
+
+/****************** Media queries ******************/
+/****************** Tablet ******************/
+/* Medium devices (tablets, less/equal than 1024px) */
+
+  @media (min-width:768px) and (max-width: 1024px){
+    .filter__container{
+      flex-wrap: wrap;
+    }
+  
+    .filter__container h2{
+      width: 95%;
+      margin-bottom: 0.5rem;
+    }
+
+    .filter__box{
+      padding-bottom: 0.8rem;
+      padding-left: 1rem;
+      padding-top: 0.8rem ;
+    }
+
+    .filter__box img{
+      width: 1.6rem;
+      height: 1.5rem;
+    }
+
+  }
+
+  
+
+
+  /****************** Phone ******************/
+  /* Small devices (phones, less than 768px) */
+
+  @media (min-width: 320px) and (max-width: 767.98px) {
+  
+
+
+  .filter__container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0rem;
+    justify-content: center;
+  }
+
+  .filter__container h2{
+    width: 95%;
+    margin-left: 1rem;
+  }
+
+  .filter__box{
+    margin-bottom: 0.4rem;
+    padding: 10px;
+    justify-content: start;
+    gap: 0.2rem;
+  }
+
+  .frame__filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .filter__container button {
+    width: 40%;
+  }
+
+  .filter__box i{
+    padding-left: 0.2rem;
+  }
+
+  .filter__box h3{
+    padding-left: 0.2rem;
+  }
+
+}
